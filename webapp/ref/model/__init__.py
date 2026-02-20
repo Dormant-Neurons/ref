@@ -1,3 +1,4 @@
+from .enums import ExerciseBuildStatus
 from .exercise import (ConfigParsingError, Exercise, ExerciseEntryService,
                        ExerciseService, RessourceLimits)
 from .instance import (Grading, Instance, InstanceEntryService,
